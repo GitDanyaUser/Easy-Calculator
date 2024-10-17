@@ -1,0 +1,22 @@
+##Numbers
+print("Enter first number")
+num1 = input()
+print("Enter second number")
+num2 = input()
+##Choice
+print("Choose: 1) Add, 2) Substract, 3) Multiple, 4) Divide")
+choice = int(input())
+##Result
+if choice == 1:
+               c = int(num1) + int(num2)
+               print("Sum: ", c)
+if choice == 2:
+               c = int(num1) - int(num2)
+               print("Sum: ", c)
+if choice == 3:
+               c = int(num1) * int(num2)
+               print("Sum: ", c)
+if choice == 4:
+               c = int(num1) / int(num2)
+if choice >= 5:
+               print("Invalid choice")
